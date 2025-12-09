@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diff>
+	<add sel="/language">
+		<page id="69420" title="Entropic Technologies" descr="Entropic Technologies names and descriptions" voice="yes">
+		 <!-- #*** Class ID:
+		  1 - S
+		  2 - M
+		  3 - L
+		  4 - XL
+		  5-structures
+		  6-resources
+		  **#* Item ID
+		  ***# Sub Item ID
+		 -->
+
+		 <!-- *0** Ships -->
+
+		 <!-- *1** Engines -->
+
+		 <!-- *2** Shields -->
+
+		 <!-- *3** Weapons -->
+
+		 <!-- *4** Turrets -->
+
+		 <!-- 5*** Structures -->
+
+		 <!-- 6*** Resources -->
+	</add>
+</diff>

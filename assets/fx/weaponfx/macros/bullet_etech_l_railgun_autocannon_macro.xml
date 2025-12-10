@@ -5,9 +5,9 @@
     <component ref="bullet_par_m_railgun_01_mk2" />
     <properties>
       <ammunition value="36" reload="0.21" />
-      <bullet speed="31500" lifetime="0.42" amount="1" barrelamount="1" icon="weapon_gatling_mk1" timediff="0.023" angle="0.015" maxhits="4" ricochet="0" restitution="1" scale="1" attach="0" influencelist="light_drive_disrupt" />
+      <bullet speed="31500" lifetime="1.42" amount="1" barrelamount="1" icon="weapon_gatling_mk1" timediff="0.023" angle="0.015" maxhits="4" ricochet="0" restitution="1" scale="1" attach="0" influencelist="light_drive_disrupt" />
       <reload rate="9" />
-      <damage hull="2500" value="10000" shield="5000" />
+      <damage hull="1250" value="5000" shield="2500" />
       <effects>
         <impact ref="impact_par_s_railgun_01_mk1" inside="impact_par_s_railgun_01_mk1_inside" />
         <bigobjectimpact ref="impact_par_s_railgun_01_mk1_bigobject" inside="impact_par_s_railgun_01_mk1_bigobject_inside" />

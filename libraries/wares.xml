@@ -10,6 +10,43 @@
 
 
 	 <!-- 3*** L Class -->
+		<ware id="ship_etech_l_kitbashmod_osaka_ware" name="E-Tech Crusier 01" description="E-Tech Crusier 01" transport="ship" volume="1" tags="ship">
+			<price min="100" average="200" max="300" />
+			<production time="60" amount="1" method="default" name="E-Tech Crusier 01">
+				<primary>
+					<ware ware="energycells" amount="1" />
+				</primary>
+			</production>
+			<component ref="ship_etech_l_kitbashmod_osaka_macro" />
+		</ware>
+		<ware id="ship_etech_l_sapporomk2_ware" name="E-Tech Crusier 02" description="E-Tech Crusier 02" transport="ship" volume="1" tags="ship">
+			<price min="100" average="200" max="300" />
+			<production time="60" amount="1" method="default" name="E-Tech Crusier 02">
+				<primary>
+					<ware ware="energycells" amount="1" />
+				</primary>
+			</production>
+			<component ref="ship_etech_l_sapporomk2_macro" />
+		</ware>
+		<ware id="ship_etech_l_syn_ware" name="E-Tech Crusier 03" description="E-Tech Crusier 03" transport="ship" volume="1" tags="ship">
+			<price min="100" average="200" max="300" />
+			<production time="60" amount="1" method="default" name="E-Tech Crusier 03">
+				<primary>
+					<ware ware="energycells" amount="1" />
+				</primary>
+			</production>
+			<component ref="ship_etech_l_syn_macro" />
+		</ware>
+		<ware id="ship_etech_l_ray_ware" name="E-Tech Crusier 04" description="E-Tech Crusier 04" transport="ship" volume="1" tags="ship">
+			<price min="100" average="200" max="300" />
+			<production time="60" amount="1" method="default" name="E-Tech Crusier 04">
+				<primary>
+					<ware ware="energycells" amount="1" />
+				</primary>
+			</production>
+			<component ref="ship_etech_l_ray_macro" />
+		</ware>
+
 	 <!-- 3*** L Class -->
 
 	 <!-- 4*** XL Class -->

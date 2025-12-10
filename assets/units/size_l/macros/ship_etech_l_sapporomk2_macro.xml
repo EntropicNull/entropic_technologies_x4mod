@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<macros>
+  <macro name="ship_etech_l_sapporomk2_macro" class="ship_l">
+    <component ref="ship_etech_l_sapporomk2" />
+    <properties>
+      <identification name="E-Tech Crusier 02" basename="E-Tech Crusier 02" makerrace="terran" description="E-Tech Crusier 02" icon="ship_l_fight_01" />
+      <software>
+        <software ware="software_dockmk2" default="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" default="1" />
+        <software ware="software_scannerobjectmk2" default="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" default="1" />
+      </software>
+      <jerk>
+        <forward accel="0.4" decel="0.8" ratio="3" />
+        <forward_boost accel="0.4" ratio="3" />
+        <forward_travel accel="0.4" decel="0.9" ratio="3" />
+        <strafe value="0.5" />
+        <angular value="0.3" />
+      </jerk>
+      <explosiondamage value="1000" shield="5000" />
+      <radar range="80000" />
+      <storage missile="460" unit="10" />
+      <hull max="128000" />
+      <secrecy level="2" />
+      <steeringcurve>
+        <point position="1.01" value="1" />
+        <point position="1.2" value="0.95" />
+        <point position="1.4" value="0.9" />
+        <point position="1.6" value="0.85" />
+        <point position="1.8" value="0.8" />
+        <point position="2.0" value="0.7" />
+        <point position="2.4" value="0.6" />
+        <point position="2.8" value="0.5" />
+      </steeringcurve>
+      <purpose primary="fight" />
+      <people capacity="84" />
+      <sounds>
+        <shipdetail ref="shipdetail_timelines_terran_l_01" />
+      </sounds>
+      <physics mass="225.943">
+        <inertia pitch="107.222" yaw="107.222" roll="83.778" />
+        <drag forward="89.448" reverse="357.792" horizontal="62.503" vertical="62.503" pitch="89.2" yaw="89.2" roll="89.2" />
+      </physics>
+      <thruster tags="extralarge" />
+      <ownership playercoverable="1" />
+      <ship type="envoy" prestige="90" />
+      <stances>
+        <stance ref="envoy_cloak" />
+      </stances>
+    </properties>
+    <connections>
+      <connection ref="con_cockpit_01">
+        <macro ref="bridge_ter_l_02_macro" connection="con_cockpit_01" />
+      </connection>
+      <connection ref="con_dockarea_arg_s_ship_01">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="con_dock_xs_01">
+        <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_shipstorage_s_01">
+        <macro ref="shipstorage_gen_s_six_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage_01">
+        <macro ref="storage_ter_l_destroyer_01_a_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

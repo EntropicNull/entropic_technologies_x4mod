@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Pascal (192.168.3.57) on 2024-02-18 22:53:50-->
+<macros>
+  <macro name="turret_etech_l_borflak_macro" class="turret">
+    <component ref="turret_etech_l_borflak" />
+    <properties>
+      <identification name="E-Tech Railgun Autocannon" basename="E-Tech Railgun Autocannon" shortname="E-Tech Railgun Autocannon" makerrace="boron" description="E-Tech Railgun Autocannon" mk="1" />
+      <bullet class="bullet_etech_l_railgun_autocannon_macro" />
+      <rotationspeed max="135" />
+      <rotationacceleration max="270" />
+      <hull max="10500" threshold="0.2" integrated="0" />
+      <effects>
+        <sefx_damage_low ref="surfacemodule_damage_l_low" />
+        <sefx_damage_medium ref="surfacemodule_damage_l_medium" />
+        <sefx_damage_high ref="surfacemodule_damage_l_high" />
+      </effects>
+    </properties>
+  </macro>
+</macros>

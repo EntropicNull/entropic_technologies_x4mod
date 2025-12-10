@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Exported on 2024-08-05 14:37:07-->
 <components>
-  <component name="ship_etech_l_ray" class="ship_l">
+  <component name="ship_etech_l_boronray" class="ship_l">
     <source geometry="extensions\ego_dlc_boron\assets\units\size_l\ship_bor_l_destroyer_01_data" />
     <layers>
       <layer>

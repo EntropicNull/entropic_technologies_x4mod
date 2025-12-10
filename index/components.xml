@@ -16,7 +16,7 @@
 		<entry name="ship_etech_l_kitbashmod_osaka" value="extensions\entropic_technologies_x4mod\assets\units\size_l\ship_etech_l_kitbashmod_osaka" />
 		<entry name="ship_etech_l_sapporomk2" value="extensions\entropic_technologies_x4mod\assets\units\size_l\ship_etech_l_sapporomk2" />
 		<entry name="ship_etech_l_syn" value="extensions\entropic_technologies_x4mod\assets\units\size_l\ship_etech_l_syn" />
-		<entry name="ship_etech_l_ray" value="extensions\entropic_technologies_x4mod\assets\units\size_l\ship_etech_l_ray" />
+		<entry name="ship_etech_l_boronray" value="extensions\entropic_technologies_x4mod\assets\units\size_l\ship_etech_l_boronray" />
  
 	 <!-- *1** Engines -->
  
@@ -25,6 +25,7 @@
 	 <!-- *3** Weapons -->
  
 	 <!-- *4** Turrets -->
+	 	<entry name="turret_etech_l_borFlak" value="extensions\entropic_technologies_x4mod\assets\props\weaponsystems\turret_etech_l_borFlak" />
  
 	 <!-- 5*** Structures -->
  

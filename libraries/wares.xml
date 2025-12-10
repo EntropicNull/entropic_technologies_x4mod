@@ -37,14 +37,24 @@
 			</production>
 			<component ref="ship_etech_l_syn_macro" />
 		</ware>
-		<ware id="ship_etech_l_ray_ware" name="E-Tech Crusier 04" description="E-Tech Crusier 04" transport="ship" volume="1" tags="ship">
+		<ware id="ship_etech_l_boronray_ware" name="E-Tech Crusier 04" description="E-Tech Crusier 04" transport="ship" volume="1" tags="ship">
 			<price min="100" average="200" max="300" />
 			<production time="60" amount="1" method="default" name="E-Tech Crusier 04">
 				<primary>
 					<ware ware="energycells" amount="1" />
 				</primary>
 			</production>
-			<component ref="ship_etech_l_ray_macro" />
+			<component ref="ship_etech_l_boronray_macro" />
+		</ware>
+		<ware id="turret_etech_l_borFlak_ware" name="E-Tech Railgun Autocannon 01" description="E-Tech Railgun Autocannon 01" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+			<price min="100" average="200" max="300" />
+			<production time="60" amount="1" method="default" name="E-Tech Railgun Autocannon 01">
+				<primary>
+					<ware ware="energycells" amount="1" />
+				</primary>
+			</production>
+			<component ref="turret_etech_l_borflak_macro" />
+			<use threshold="1" />
 		</ware>
 
 	 <!-- 3*** L Class -->

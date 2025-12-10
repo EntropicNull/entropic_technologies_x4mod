@@ -16,15 +16,17 @@
 		<entry name="ship_etech_l_kitbashmod_osaka_macro" value="extensions\entropic_technologies_x4mod\assets\units\size_l\macros\ship_etech_l_kitbashmod_osaka_macro" />
 		<entry name="ship_etech_l_sapporomk2_macro" value="extensions\entropic_technologies_x4mod\assets\units\size_l\macros\ship_etech_l_sapporomk2_macro" />
 		<entry name="ship_etech_l_syn_macro" value="extensions\entropic_technologies_x4mod\assets\units\size_l\macros\ship_etech_l_syn_macro" />
-		<entry name="ship_etech_l_ray_macro" value="extensions\entropic_technologies_x4mod\assets\units\size_l\macros\ship_etech_l_ray_macro" />
- 
+		<entry name="ship_etech_l_boronray_macro" value="extensions\entropic_technologies_x4mod\assets\units\size_l\macros\ship_etech_l_boronray_macro" />
+
 	 <!-- *1** Engines -->
- 
+
 	 <!-- *2** Shields -->
- 
+
 	 <!-- *3** Weapons -->
- 
+
 	 <!-- *4** Turrets -->
+		<entry name="turret_etech_l_borflak_macro" value="extensions\entropic_technologies_x4mod\assets\props\weaponsystems\macros\turret_etech_l_borflak_macro" />
+		<entry name="bullet_etech_l_railgun_autocannon_macro" value="extensions\entropic_technologies_x4mod\assets\fx\weaponfx\macros\bullet_etech_l_railgun_autocannon_macro" />
  
 	 <!-- 5*** Structures -->
  

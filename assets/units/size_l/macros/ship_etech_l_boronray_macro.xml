@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Exported by: Michael (192.168.3.53) on 2024-11-18 15:09:22-->
 <macros>
-  <macro name="ship_etech_l_ray_macro" class="ship_l">
-    <component ref="ship_etech_l_ray" />
+  <macro name="ship_etech_l_boronray_macro" class="ship_l">
+    <component ref="ship_etech_l_boronray" />
     <properties>
       <identification name="E-Tech Crusier 04" basename="E-Tech Crusier 04" makerrace="boron" description="E-Tech Crusier 04" icon="ship_l_destroyer_01" />
       <software>
